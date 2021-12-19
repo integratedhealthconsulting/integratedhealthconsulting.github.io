@@ -134,7 +134,7 @@ td, th {
 #IHC {
     font-family: 'Dosis', arial;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #000080;
     font-style: bold;
 }
@@ -230,4 +230,10 @@ footer {
 #container {
     max-width: 900px;
     margin: 0 auto;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+#IHC p {
+    height: 6rem;
 }
