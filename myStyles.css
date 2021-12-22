@@ -1,102 +1,11 @@
+/* style sheet for integrated healthcare consulting page */
+
 * {
     font-family: 'Fira Sans', arial;
-    font-color: #000080;
 }
 
-
-#required {
-    font-size: 9px;
-    font-style: italic;
-    text-align: center;
-}
-
-#buttons {
-    text-align: center;
-    margin: 0 auto;
-}
-
-#paddingEmail {
-    margin-left: 97px;
-}
-
-#paddingPhone {
-    margin-left: 35px;
-}
-
-
-#textarea {
-    margin-left: 72px;
-    width: 302px;
-    height: 150px;
-}
-
-.oneSeventy {
-    padding-left: 170px;
-}
-
-#padding {
-    margin-left: 60px;
-}
-
-#picture {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-            grid-column-gap: 10px;
-}
-
-#imageLeft {
-    justify-content: center;
-            align-items: left;
-
-}
-#textRight {
-    justify-content: center;
-    align-items: right;
-}
-
-img {
-    width: 120px;
-    height: auto;
-}
-
-/* #logo {
-    width: 80px;
-    height: auto;
-} */
-
-#social {
-    margin: auto;
-    text-align: center;
-}
-
-#tableA {
-    table-layout: fixed;
-    width: 146%;
-    margin-left: -19%;	
-}
-
-#aCol {
-    width: 40%;
-}
-
-#bCol {
-    width:60%;
-}
-
-#cCol {
-    width: 6%;
-}
-
-#w {
-    width: 150%;
-}
-td, th {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-#year {
-    padding-right: 60px;
+body {
+    background-color: #fff;
 }
 
 #navigation nav ul {
@@ -118,13 +27,15 @@ td, th {
     padding: 40px;
     text-decoration: none;
     list-style-type: none;
+    padding-top: 0.5rem;
 
 }
 
-#navigation nav li a:hover {
-    color: #000;
+a:hover {
+    color: #676783;
     transition: 0.5s;
 }
+
 
 #navigation nav {
     width: 116%;
@@ -134,39 +45,22 @@ td, th {
 #IHC {
     font-family: 'Dosis', arial;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.2rem;
     color: #000080;
-    font-style: bold;
 }
 
 #sub {
     font-family: 'Dosis', arial;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: italic;
     color: #000080;
 }
 
 
-
-
-#wrapper {
-    width: 700px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin: 0 auto;
-}
-
-body {
-    background-color: #fff; 
-
-
-}
-
 a {
     text-decoration: none;
     color: #000080;
-
 }
 
 #twitter {
@@ -174,10 +68,6 @@ a {
 
 }
 
-footer {
-    margin: 0 auto;
-    font-size: 10px;
-}
 
 #foot {
     margin: 0 auto;
@@ -190,8 +80,6 @@ footer {
 }
 
 #col1 {
-    /* justify-content: center;
-    align-items: center; */
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
@@ -199,16 +87,9 @@ footer {
 
 #col2 {
     justify-content: center;
-    /* text-align: right; */
     align-items: center;
     text-align: right;
 }	
-
-/* #cookie {
-    text-align: center;	
-    padding-top: 25px;
-    padding-bottom: 20px;
-} */
 
 #aTwitter {
     padding-left: 6px;
@@ -217,6 +98,12 @@ footer {
 
 #logo {
     float: right;
+}
+
+img {
+    /* border-radius: 50%; */
+    max-width: 180px;
+    height: auto;
 }
 
 #IHC {
@@ -234,3 +121,123 @@ footer {
     overflow: hidden;
 }
 
+#bl {
+    color: #000;
+}
+
+#header {
+    font-family: 'Dawning of a New Day', helvetica;
+    font-size: 4rem;
+}
+
+footer {
+    font-size: 0.8rem;
+}
+
+#big {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+#medium {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+#biggest {
+    font-family: 'Dawning of a New Day', helvetica;
+    font-size: 3.2rem;
+}
+
+#tech ul {
+    list-style-type: circle;
+    color: #000;
+}
+
+#tech li {
+    color: black;
+}
+
+#techcat {
+    font-weight: 400;
+    color: #000;
+}
+
+#techHeader {
+    color: firebrick;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+#linksAlign {
+    text-align: center;
+}
+
+#linksAlign a {
+    font-size: 1.2rem;
+}
+
+#smaller {
+    font-size: 1.1rem;
+    color: #000;
+}
+
+#imageLeft {
+    justify-content: center;
+    align-items: left;
+}
+
+#textRight {
+    justify-content: center;
+    align-items: right;
+    padding-top: 2rem;
+}
+
+#divided {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#headshot {
+    border-radius: 50%
+}
+
+#social {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+p {
+    color: #000;
+}
+
+#integrated {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+#h2sub {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+#emailUs {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 200;
+}
+
+#contactList {
+    list-style-type: disc;
+}
+
+#center {
+    text-align: center;
+}
